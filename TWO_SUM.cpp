@@ -11,12 +11,12 @@ int main(){
         for(int j=i+1; j<size; j++){
             if(arr[i]+arr[j]==target){
                 cout<<i<<" , "<<j<<endl;
-                break;
+                return 0;
             }
            
         }
     }
 
 
-    return 0;
+    return -1;
 }
